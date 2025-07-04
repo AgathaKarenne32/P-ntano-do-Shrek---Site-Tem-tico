@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo ao Pântano!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/shrek" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <button id="navToggle" class="nav-toggle" aria-label="Abrir Menu">+</button>
+            <nav id="navMenu" class="nav">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Serviços do Pântano</a></li>
+                    <li><a href="#">Fale com o Ogro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao meu pântano!</h1>
+            <p>Soluções ogro-tásticas para suas necessidades digitais.</p>
+            <a href="#contact" class="btn">Cuidado com o Ogro</a>
+        </div>
+    </section>
+
+    <section id="services" class="services container">
+        <h2>Serviços do Pântano</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Desenvolvimento de Pântanos Digitais</h3>
+                <p>Construindo a base robusta do seu pântano online.</p>
+            </div>
+            <div class="card">
+                <h3>Interfaces para Criaturas Mágicas</h3>
+                <p>Designs encantados e fáceis de usar para todos os seres.</p>
+            </div>
+            <div class="card">
+                <h3>Consultoria em Rastreamento de Ogros</h3>
+                <p>Estratégias para encontrar e lidar com os maiores desafios.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <h2>Fale com o Ogro</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Seu Nome de Conto de Fadas</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Seu Correio-Pombal</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Sua Mensagem para o Ogro</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Enviar Pergaminho</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pântano do Shrek. Todos os direitos reservados (ou não).</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
